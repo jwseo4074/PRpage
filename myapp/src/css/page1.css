@@ -4,7 +4,7 @@
 /* section1 */
 .section1 {
 	width: 100%;
-	height: 100%; 
+	/* height: 100%;  */
 	display: flex;
 	position: relative;
 	background: url("../img/background_1.jpeg");
@@ -12,42 +12,76 @@
 	z-index: 1;
 }
 
-.left_box {
-	width: 50%;
-	height: 100%;
+.category {
+	/* border: 5px blue solid; */
+	width: 20%;
+	background-color: black;
+	/* padding-top: 50px; */
+	/* padding-left: 100px; */
 }
-
-/* .seojiwon_body1 {
-	width: 500px;
-	object-fit: cover;
-	padding: 200px 0px 0px 230px;
-} */
+.category h1{
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+	/* padding-top: 50px; */
+}
+.category h1 a{
+	display: inline-block;
+	color: white;
+	font: bolder;
+	font-size: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 30px;
+}
+.category .connect_part{
+	margin-top: 600px;
+	padding-left: 25px;
+	/* border: 5px red solid; */
+}
+.category .connect_part p {
+	color: white;
+	/* font-weight: bolder; */
+	font-size: 20px;
+}
+.left_box {
+	width: 35%;
+	/* border: 5px green solid; */
+	/* height: 100%; */
+}
 
 .seojiwon_body2_test {
 	/* width: 70%; */
 	/* height: 70%; */
-	width: 500px;
+	width: 450px;
   	/* height: 150px; */
 	object-fit: cover;
-	padding: 170px 0px 0px 270px;
-	/* 시계방향, 상 좌 하 우  */
+	padding: 140px 0px 0px 120px;
+	/* 시계방향, 상 우 하 좌  */
 }
 
 .right_box {
+	/* border: 5px blue solid; */
+
 	display: flex;
 	flex-direction: column;
-	width: 50%;
-	padding-left: 20px;
-	height: 100%;
-	justify-content: center;
+	width: 45%;
+	/* padding-left: 20px; */
+	/* height: 100%; */
+	/* justify-content: center; */
 }
 
 .right_box_h1_box{
-	width: 50%; 
-	height: 10%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-left: 5%;
+	/* border: 5px red solid; */
+
+	/* width: 40%;  */
+	/* height: 10%; */
+	/* margin-top: 5%; */
+	/* margin-bottom: 5%; */
+	/* margin-left: 5%; */
+	/* padding : 150px 50px 0px 0px;  */
+	margin : 170px 50px 20px 100px;
+	/* 위 오른 아래 왼 */
 }
 
 .right_box_h1_box h1{
@@ -56,9 +90,9 @@
 	font-size: 2.5vw;
 }
 .name_in_h1 {
-	font-size: 5vw;
+	font-size: 70px;
 	text-decoration: underline darksalmon solid 10px;
-	margin: 0;
+	/* margin: 0; */
 }
 .point_in_h1 {
 	color: darksalmon;
@@ -69,15 +103,17 @@
 .right_box_p_box {
 	display: flex;
 	flex-direction:column;
-	width: 70%;
-	margin-left: 5%;
-	height: 40%;
+	/* width: 70%; */
+	margin : 0px 0px 0px 100px;
+	/* height: 40%; */
 }
 .right_box_p_box p {
 	color: white;
-	font-size: 1.5vw;
-	font-style: normal;
-	font-weight: normal;
+	font-size: 23px;
+	margin : 0px;
+	padding : 0px;
+	/* font-style: normal; */
+	/* font-weight: normal; */
 	/* margin-left: 10%; */
 }
 .point_in_p {
@@ -85,8 +121,7 @@
 	font-size: 3vw;
 }
 
-
-/* animation */
+/* 
 .design_img {
 	position: relative;
 	animation: mymove 1.3s;
@@ -95,32 +130,26 @@
 .delay_1 {
 	position: relative;
 	animation: mymove 1.5s;
-	/* animation-delay: 0.3s; */
 }
 .delay_2 {
 	position: relative;
 	animation: mymove 1.6s;
-	/* animation-delay: 0.2s; */
 }
 .delay_3 {
 	position: relative;
 	animation: mymove 1.7s;
-	/* animation-delay: 0.2s; */
 }
 .delay_4 {
 	position: relative;
 	animation: mymove 1.8s;
-	/* animation-delay: 0.2s; */
 }
 .delay_5 {
 	position: relative;
 	animation: mymove 1.9s;
-	/* animation-delay: 0.2s; */
 }
 .delay_6 {
 	position: relative;
 	animation: mymove 2s;
-	/* animation-delay: 0.2s; */
 }
 @keyframes mymove {
 	from {
@@ -130,42 +159,13 @@
 		top: 0px;
 	}
 }
+*/
+/* 카테고리 마우스 오버 */
 
-@keyframes mymove_moon_cat {
-	from {
-		left: -500px;
-	}
-	to {
-		left: 4%;
-	}
+a span:hover {
+	color : gray;
 }
 
-@keyframes mymove_star1 {
-	from {
-		left: -20%;
-	}
-	to {
-		left: 20%;
-	}
-}
-
-@keyframes mymove_star2 {
-	from {
-		right: -20%;
-	}
-	to {
-		right: 20%;
-	}
-}
-
-@keyframes mymove_star3 {
-	from {
-		right: -30%;
-	}
-	to {
-		right: 3%;
-	}
-}
 }
 
 /* 모바일 버전 */
@@ -252,9 +252,9 @@
 	}
 	.right_box_p_box p {
 		color: white;
-		font-size: 2.5vh;
-		font-style: normal;
-		font-weight: normal;
+		font-size: 5px;
+		/* font-style: normal; */
+		/* font-weight: normal; */
 	}
 	.point_in_p {
 		color: darksalmon;
