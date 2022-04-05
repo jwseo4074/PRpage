@@ -1,20 +1,16 @@
 import "../css/page1.css";
-import design_img from "../img/design_img.svg";
-import moon_cat from "../img/moon_cat.svg";
-import star from "../img/star.svg";
+import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
+import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
+import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
 
 function Page1() {
 	return (
 		<>
 		    {/* First Page */}
             <div className="section section1">
-                <img className="moon_cat" src={moon_cat} />
-                <img className="star1" src={star} />
-                <img className="star2" src={star} />
-                <img className="star3" src={star} />
-
                 <div className="left_box">
-                    <img className="design_img" src={design_img} />
+                    <img className="seojiwon_body2_test" src={seojiwon_body2_test} />
+
                 </div>
                 <div className="right_box">
                     <div className ="right_box_h1_box">

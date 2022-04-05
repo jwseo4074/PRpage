@@ -22,8 +22,8 @@ function Page3() {
                             <div className="project">
                                 <a href="http://www.naver.com">
                                     <div className="number">
-                                        <p>02</p>
-                                        <p>프로젝트 2</p> 
+                                        <p>03</p>
+                                        <p>노마더코드 크롬 앱 만들기</p> 
                                         <p className="explain"> 설명 간단하게 적어봅시다</p>
                                     </div>
                                 </a>
@@ -34,8 +34,8 @@ function Page3() {
                             <div className="project">
                                 <a href="http://www.naver.com">
                                     <div className="number">
-                                        <p>03</p>
-                                        <p>프로젝트 3</p> 
+                                        <p>02</p>
+                                        <p>졸업과제</p> 
                                         <p className="explain"> 설명 간단하게 적어봅시다</p>
                                     </div>
                                 </a>

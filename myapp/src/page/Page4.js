@@ -1,6 +1,9 @@
 import "../css/page4.css";
 
-import seojiwon from "../img/seojiwon.jpeg";
+
+import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
+import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
+import seojiwon_body3 from "../img/seojiwon_body3.jpeg";
 import phone from "../img/phone.png";
 import email from "../img/email.png";
 import insta from "../img/insta.png";
@@ -16,7 +19,7 @@ function Page4() {
 
                 <div className="big_box">
                     <div className="Fourth_page_First_box">
-                        <img src={seojiwon}></img>
+                        <img src={seojiwon_body1}></img>
                     </div>
 
                     <div className="Fourth_page_Second_box">
