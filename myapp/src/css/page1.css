@@ -3,7 +3,7 @@
 
 /* section1 */
 .section1 {
-	width: 100%;
+	/* width: 100%; */
 	/* height: 100%;  */
 	display: flex;
 	position: relative;
@@ -13,8 +13,8 @@
 }
 
 .category {
-	/* border: 5px blue solid; */
-	width: 20%;
+	border: 5px blue solid;
+	width: 17%;
 	background-color: black;
 	/* padding-top: 50px; */
 	/* padding-left: 100px; */
@@ -34,19 +34,27 @@
 	cursor: pointer;
 	padding-left: 30px;
 }
-.category .connect_part{
-	margin-top: 600px;
-	padding-left: 25px;
+.category .categoryUpBox{
+	border: yellow 10px solid;
+	/* margin-top: 600px; */
+	/* padding-left: 25px; */
 	/* border: 5px red solid; */
 }
-.category .connect_part p {
+.category .categoryBottomBox{
+	border: red 10px solid;
+	/* margin-top: 600px; */
+	margin-top: 500px;
+	/* border: 5px red solid; */
+}
+
+.category .categoryBottomBox p {
 	color: white;
 	/* font-weight: bolder; */
 	font-size: 20px;
 }
 .left_box {
 	width: 35%;
-	/* border: 5px green solid; */
+	border: 5px green solid;
 	/* height: 100%; */
 }
 
@@ -61,7 +69,7 @@
 }
 
 .right_box {
-	/* border: 5px blue solid; */
+	border: 5px blue solid;
 
 	display: flex;
 	flex-direction: column;
@@ -72,7 +80,7 @@
 }
 
 .right_box_h1_box{
-	/* border: 5px red solid; */
+	border: 5px red solid;
 
 	/* width: 40%;  */
 	/* height: 10%; */
@@ -162,7 +170,7 @@
 */
 /* 카테고리 마우스 오버 */
 
-a span:hover {
+.categoryUpBox h1 a span:hover {
 	color : gray;
 }
 

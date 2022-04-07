@@ -12,9 +12,11 @@ function Page3() {
                             <div className="project">
                                 <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p>01</p>
-                                        <p>Refri Bank</p>
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p> 
+                                        <p className="numberCanHover">01</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
@@ -22,8 +24,8 @@ function Page3() {
                             <div className="project">
                                 <a href="http://www.naver.com">
                                     <div className="number">
-                                        <p>03</p>
-                                        <p>노마더코드 크롬 앱 만들기</p> 
+                                        <p className="numberCanHover">03</p>
+                                        <p className="numberCanHover">노마드코더 크롬 앱 만들기</p> 
                                         <p className="explain"> 설명 간단하게 적어봅시다</p>
                                     </div>
                                 </a>
@@ -34,8 +36,8 @@ function Page3() {
                             <div className="project">
                                 <a href="http://www.naver.com">
                                     <div className="number">
-                                        <p>02</p>
-                                        <p>졸업과제</p> 
+                                        <p className="numberCanHover">02</p>
+                                        <p className="numberCanHover">졸업과제</p> 
                                         <p className="explain"> 설명 간단하게 적어봅시다</p>
                                     </div>
                                 </a>
@@ -43,8 +45,8 @@ function Page3() {
                             <div className="project">
                                 <a href="http://www.naver.com">
                                     <div className="number">
-                                        <p>04</p>
-                                        <p>프로젝트 4</p> 
+                                        <p className="numberCanHover">04</p>
+                                        <p className="numberCanHover">프로젝트 4</p> 
                                         <p className="explain"> 설명 간단하게 적어봅시다</p>
                                     </div>
                                 </a>

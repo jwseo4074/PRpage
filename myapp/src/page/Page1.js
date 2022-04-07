@@ -13,7 +13,7 @@ function Page1() {
 		    {/* First Page */}
             <div className="section section1">
                 <div className="category"> 
-                    <div>
+                    <div className="categoryUpBox">
                         <h1>
                             <a href="https://github.com/jwseo4074/">
                                 <span>Github 
@@ -29,7 +29,7 @@ function Page1() {
                             </a>
                         </h1>
                     </div>
-                    <div className="connect_part">
+                    <div className="categoryBottomBox">
                         <p>zwon2056@gamil.com</p>
                         <p>Last Update : 2022/04/05 </p>
                     </div>
@@ -50,23 +50,23 @@ function Page1() {
                     <div className ="right_box_p_box">
                         <p className="delay_2">
                             프론트엔드 개발자를 희망하고 있습니다
-                            <span className="point_in_p"></span>
+                            <span className="point_in_p">.</span>
                         </p>
                         <p className="delay_3">
                             팀원들과의 소통을 가장 중요시합니다
-                            <span className="point_in_p"></span>
+                            <span className="point_in_p">.</span>
                         </p>
                         <p className="delay_4">
                             개발 초기 기획 단계의 중요성을 잘 알고있습니다
-                            <span className="point_in_p"></span>
+                            <span className="point_in_p">.</span>
                         </p>
                         <p className="delay_5">
                             배운 모든 것들을 기록하고 공유하는 것을 좋아합니다
-                            <span className="point_in_p"></span>
+                            <span className="point_in_p">.</span>
                         </p>
                         <p className="delay_6">
                             나날이 발전하는 웹 개발자가 되겠습니다
-                            <span className="point_in_p"></span>
+                            <span className="point_in_p">.</span>
                         </p>
                     </div>
                 </div>
