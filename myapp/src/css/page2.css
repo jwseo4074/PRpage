@@ -1,24 +1,78 @@
-/* section2 */
-
-.section2 {
+/* section3 */
+.section3 {
 	/* width: 1800px; */
 	/* height: 990px; */
+	background: no-repeat center/100% url("../img/background_3.jpeg");
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background: no-repeat center/100% url("../img/background_4.jpeg");
+
 }
-.section2 h1 {
-	/* margin-left: 150px;
-	margin-top: 150px;
-	margin-bottom: 50px; */
+.section3 h1 {
+	padding: 40px;
 	font-size: 80px;
 	color: blanchedalmond;
 }
 
-.section2 p {
-	/* margin-left: 100px;
-	margin-top: 100px;*/
-	font-size: 50px;
-	color: white; 
+.section3_box {
+	/* width: 1790px; */
+	/* height: 700px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.section3_project {
+	/* width: 1500px; */
+	/* height: 700px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.box {
+	display: flex;
+	flex-direction: column;
+}
+.smallName {
+	font-size: 30px;
+	color:rgb(56, 48, 31);
+}
+.explainProject{
+	font-size: 20px;
+	color:rgb(197, 180, 157);
+	padding-top : 20px;
+}
+.project {
+	width: 500px;
+	height: 200px;
+	margin: 50px;
+	border-top: gray 2px solid;
+}
+.project a {
+	display: inline-block;
+	color: gray;
+	font: bolder;
+	font-size: 30px;
+	text-decoration: none;
+	margin: 20px;
+}
+.number{
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.explain {
+	font-size: 30px;
+	color: rgb(175, 175, 175);
+	font-weight: lighter;
+	margin-top: 20px;
+}
+
+.project:hover .numberCanHover{
+	color:cadetblue;
+	cursor: pointer;
+	/* font-size: 45px; */
+	font-weight: bolder;
+	/* transform: scale(1.1); */
 }

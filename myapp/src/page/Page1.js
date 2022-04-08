@@ -29,8 +29,9 @@ function Page1() {
                             </a>
                         </h1>
                     </div>
+                    <div className="categoryEmptyBox"></div>
                     <div className="categoryBottomBox">
-                        <p>zwon2056@gamil.com</p>
+                        <p>zwon2056@gmail.com</p>
                         <p>Last Update : 2022/04/05 </p>
                     </div>
                 </div>

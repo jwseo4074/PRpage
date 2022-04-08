@@ -1,14 +1,21 @@
 /* 웹 버전 */
-@media screen and (min-width : 800px) {
+@media screen and (min-width : 1023px) {
+
+/* min-width를 사용하는 경우
+스마트폰 등 가장 작은 사이즈에서의 레이아웃을 기본으로 하고, 점차 확장되어가는 형태로 CSS를 작성합니다.
+
+max-width를 사용하는 경우
+데스크탑용의 가장 큰 화면 사이즈의 레이아웃을 기본으로 하고, 점차 축소하는 형태로 CSS를 작성합니다. */
+
+
+/* Desktop : 1024~, Tablet : 1023~768, Phone : 480~320 */
 
 /* section1 */
 .section1 {
-	/* width: 100%; */
-	/* height: 100%;  */
 	display: flex;
-	position: relative;
+	/* position: relative; */
 	background: url("../img/background_1.jpeg");
-	background-size: 100% 100%;
+	background-size: 100vw 100vh;
 	z-index: 1;
 }
 
@@ -22,35 +29,43 @@
 .category h1{
 	color: white;
 	font-weight: bolder;
-	font-size: 50px;
+	/* font-size: 5rem; */
 	/* padding-top: 50px; */
 }
-.category h1 a{
+.categoryUpBox h1 a{
 	display: inline-block;
 	color: white;
 	font: bolder;
-	font-size: 50px;
 	text-decoration: none;
 	cursor: pointer;
 	padding-left: 30px;
 }
+.categoryUpBox h1 a span{
+	font-size: 5rem;
+}
 .category .categoryUpBox{
-	border: yellow 10px solid;
+	border: yellow 2px solid;
+	height: 30vh;
 	/* margin-top: 600px; */
-	/* padding-left: 25px; */
+	padding-top: 5vh;
 	/* border: 5px red solid; */
 }
 .category .categoryBottomBox{
-	border: red 10px solid;
+	border: red 2px solid;
+	/* height: 20vh; */
 	/* margin-top: 600px; */
-	margin-top: 500px;
+	/* padding-top: 500px; */
 	/* border: 5px red solid; */
 }
 
 .category .categoryBottomBox p {
 	color: white;
 	/* font-weight: bolder; */
-	font-size: 20px;
+	font-size: 2rem;
+}
+.categoryEmptyBox {
+	border: red 2px solid;
+	height:50vh;
 }
 .left_box {
 	width: 35%;
@@ -61,10 +76,12 @@
 .seojiwon_body2_test {
 	/* width: 70%; */
 	/* height: 70%; */
-	width: 450px;
+	/* width: 450px; */
+	max-width: 200px;
+	min-width: 100px;
   	/* height: 150px; */
-	object-fit: cover;
-	padding: 140px 0px 0px 120px;
+	/* object-fit: cover; */
+	/* padding: 140px 0px 0px 120px; */
 	/* 시계방향, 상 우 하 좌  */
 }
 
@@ -95,17 +112,17 @@
 .right_box_h1_box h1{
 	color: white;
 	font-weight: bolder;
-	font-size: 2.5vw;
+	/* font-size: 2.5vw; */
 }
 .name_in_h1 {
-	font-size: 70px;
+	/* font-size: 70px; */
 	text-decoration: underline darksalmon solid 10px;
 	/* margin: 0; */
 }
 .point_in_h1 {
 	color: darksalmon;
 	font-style: normal;
-	font-size: 4vw;
+	/* font-size: 4vw; */
 }
 
 .right_box_p_box {
@@ -117,7 +134,7 @@
 }
 .right_box_p_box p {
 	color: white;
-	font-size: 23px;
+	/* font-size: 23px; */
 	margin : 0px;
 	padding : 0px;
 	/* font-style: normal; */
@@ -126,196 +143,29 @@
 }
 .point_in_p {
 	color: darksalmon;
-	font-size: 3vw;
+	/* font-size: 3vw; */
 }
 
-/* 
-.design_img {
-	position: relative;
-	animation: mymove 1.3s;
-	animation-delay: 0s;
-}
-.delay_1 {
-	position: relative;
-	animation: mymove 1.5s;
-}
-.delay_2 {
-	position: relative;
-	animation: mymove 1.6s;
-}
-.delay_3 {
-	position: relative;
-	animation: mymove 1.7s;
-}
-.delay_4 {
-	position: relative;
-	animation: mymove 1.8s;
-}
-.delay_5 {
-	position: relative;
-	animation: mymove 1.9s;
-}
-.delay_6 {
-	position: relative;
-	animation: mymove 2s;
-}
-@keyframes mymove {
-	from {
-		top: 1000px;
-	}
-	to {
-		top: 0px;
-	}
-}
-*/
 /* 카테고리 마우스 오버 */
 
 .categoryUpBox h1 a span:hover {
 	color : gray;
 }
-
 }
 
-/* 모바일 버전 */
-@media screen and (max-width : 800px) {
+/* 태블릿 버전 */
+@media screen and (min-width : 768px) {
+	.section {
+		background-color: black;
+	}
+}
 
-	/* section1 */
+/* 핸드폰 버전 */
+@media screen and (min-width : 300px) {
 	.section1 {
-		width: 100%;
-		height: 100%; 
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		background: url("../img/background_1.jpeg");
-		background-size: 100% 100%;
-		z-index: 1;
+		/* display: none; */
+		background-color: blue;
 	}
-	
-	/* 아이콘 */
-	.star1 {
-		display: none;
-	}
-	.star2 {
-		display: none;
-	}
-	.star3 {
-		display: none;
-	}
-	
-	.moon_cat {
-		display: none;
-	}
-	
-	.left_box {
-		width: 100%;
-		height: 50%;
-	}
-	.design_img {
-		width: 95%;
-		height: 70%;
-		margin-top: 10%;
-	}
-	
-	.right_box {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		height: 50%;
-		/* justify-content: center; */
-	}
-	
-	.right_box_h1_box{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%; 
-		height: 20%;
-		margin-bottom: 10%;
-		
-	}
-	
-	.right_box_h1_box h1{
-		color: white;
-		font-weight: bolder;
-		font-size: 4vh;
-	}
-	.name_in_h1 {
-		font-size: 7vh;
-		text-decoration: underline darksalmon solid 10px;
-		margin: 0;
-	}
-	.point_in_h1 {
-		color: darksalmon;
-		font-style: normal;
-		font-size: 10vh;
-	}
-	
-	.right_box_p_box {
-		display: flex;
-		flex-direction:column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		height: 30%;
-	}
-	.right_box_p_box p {
-		color: white;
-		font-size: 5px;
-		/* font-style: normal; */
-		/* font-weight: normal; */
-	}
-	.point_in_p {
-		color: darksalmon;
-		font-size: 4.5vh;
-	}
-	
-	
-	/* animation */
-	.design_img {
-		position: relative;
-		animation: mymove 1.3s;
-		animation-delay: 0s;
-	}
-	.delay_1 {
-		position: relative;
-		animation: mymove 1.5s;
-		/* animation-delay: 0.3s; */
-	}
-	.delay_2 {
-		position: relative;
-		animation: mymove 1.6s;
-		/* animation-delay: 0.2s; */
-	}
-	.delay_3 {
-		position: relative;
-		animation: mymove 1.7s;
-		/* animation-delay: 0.2s; */
-	}
-	.delay_4 {
-		position: relative;
-		animation: mymove 1.8s;
-		/* animation-delay: 0.2s; */
-	}
-	.delay_5 {
-		position: relative;
-		animation: mymove 1.9s;
-		/* animation-delay: 0.2s; */
-	}
-	.delay_6 {
-		position: relative;
-		animation: mymove 2s;
-		/* animation-delay: 0.2s; */
-	}
-	@keyframes mymove {
-		from {
-			top: 1000px;
-		}
-		to {
-			top: 0px;
-		}
-	}
-	
-	
 }
 	
 	
