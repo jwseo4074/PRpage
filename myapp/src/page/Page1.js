@@ -1,4 +1,6 @@
 import "../style/page1.css";
+import "../style/Header.css";
+
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
 import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
 import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
@@ -12,37 +14,29 @@ function Page1() {
 		<>
 		    {/* First Page */}
             {/* { isDesk && */}
-            <div className="section section1">
-                <div className="category"> 
+            <section className="section section1">
+                <aside className="category"> 
                     <div className="categoryUpBox">
-                        <h1>
-                            <a href="https://github.com/jwseo4074/">
-                                <span>Github 
-                                </span>
-                                <span className="point_in_h1">.</span>
-                            </a>
-                        </h1>
-                        <h1>
-                            <a href="https://velog.io/@zwon">
-                                <span>Velog 
-                                </span>
-                                <span className="point_in_h1">.</span>
-                            </a>
-                        </h1>
-                        <h1>
-                            <a href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354">
-                                <span>Notion
-                                </span>
-                                <span className="point_in_h1">.</span>
-                            </a>
-                        </h1>
+                        <a href="https://github.com/jwseo4074/">
+                            GitHub 
+                            <span className="point_in_h1">.</span>
+                        </a>
+                    
+                        <a href="https://velog.io/@zwon">
+                            Velog 
+                            <span className="point_in_h1">.</span>
+                        </a>
+                    
+                        <a href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354">
+                            Notion
+                            <span className="point_in_h1">.</span>
+                        </a>
                     </div>
-                    <div className="categoryEmptyBox"></div>
                     <div className="categoryBottomBox">
-                        <p>zwon2056@gmail.com</p>
-                        <p>Last Update : 2022/04/05 </p>
+                        <p className="categoryBottomBoxUpTag">zwon2056@gmail.com</p>
+                        <p className="categoryBottomBoxBottomTag">Last Update : 2022/04/05 </p>
                     </div>
-                </div>
+                </aside>
                 <div className="left_box">
                     <img className="seojiwon_body2_test" src={seojiwon_body2_test} />
 
@@ -79,7 +73,7 @@ function Page1() {
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
             {/* } */}
         </>
     );
