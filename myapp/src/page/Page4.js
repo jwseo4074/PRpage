@@ -1,4 +1,4 @@
-import "../css/page4.css";
+import "../style/page4.css";
 
 
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";

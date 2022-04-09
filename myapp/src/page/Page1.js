@@ -1,16 +1,17 @@
-import "../css/page1.css";
+import "../style/page1.css";
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
 import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
 import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
 
-function Page1() {
-    // const mouseHover = "mouse_hover";
+// import { useMediaQuery } from 'react-responsive'
 
-    // mouseHover.classList.toggle(mouseHover);
+function Page1() {
+    // const isDesk = useMediaQuery({ minDeviceWidth: 1023 })
 
 	return (
 		<>
 		    {/* First Page */}
+            {/* { isDesk && */}
             <div className="section section1">
                 <div className="category"> 
                     <div className="categoryUpBox">
@@ -24,6 +25,13 @@ function Page1() {
                         <h1>
                             <a href="https://velog.io/@zwon">
                                 <span>Velog 
+                                </span>
+                                <span className="point_in_h1">.</span>
+                            </a>
+                        </h1>
+                        <h1>
+                            <a href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354">
+                                <span>Notion
                                 </span>
                                 <span className="point_in_h1">.</span>
                             </a>
@@ -72,6 +80,7 @@ function Page1() {
                     </div>
                 </div>
             </div>
+            {/* } */}
         </>
     );
 }

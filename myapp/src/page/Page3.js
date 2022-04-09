@@ -1,4 +1,4 @@
-import "../css/page2.css";
+import "../style/page2.css";
 
 function Page3() {
 	return (
