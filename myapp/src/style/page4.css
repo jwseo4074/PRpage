@@ -4,7 +4,7 @@
 	height: 100%; */
 	width: 1800px;
 	height: 990px;
-	background: no-repeat center/100% url("../img/background_4.jpeg");
+	/* background: no-repeat center/100% url("../img/background_4.jpeg"); */
 	display: flex;
 	flex-direction: column;
 }

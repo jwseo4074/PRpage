@@ -2,7 +2,7 @@
 .section3 {
 	/* width: 1800px; */
 	/* height: 990px; */
-	background: no-repeat center/100% url("../img/background_3.jpeg");
+	/* background: no-repeat center/100% url("../img/background_3.jpeg"); */
 	display: flex;
 	flex-direction: column;
 	position: relative;

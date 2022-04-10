@@ -8,12 +8,8 @@ import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
 // import { useMediaQuery } from 'react-responsive'
 
 function Page1() {
-    // const isDesk = useMediaQuery({ minDeviceWidth: 1023 })
-
 	return (
 		<>
-		    {/* First Page */}
-            {/* { isDesk && */}
             <section className="section section1">
                 <aside className="category"> 
                     <div className="categoryUpBox">

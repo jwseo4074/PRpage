@@ -11,10 +11,6 @@ max-width를 사용하는 경우
 
 /* 토스뱅크에서 기본 웹은 min-width : 640 으로 두고 모바일은 설정 x  */
 @media all and (min-width : 768px) {
-	.headerBox {
-		display: none;
-	}
-
 	/* section1 */
 	.section1 {
 		display: flex;
@@ -175,10 +171,5 @@ max-width를 사용하는 경우
 }
 
 /* 태블릿 or 모바일 버전 */
-
-/* .point_in_h1 {
-	color: black;
-} */
-
 	
 	
