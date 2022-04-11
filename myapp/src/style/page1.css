@@ -10,13 +10,14 @@ max-width를 사용하는 경우
 /* Desktop : 1024~, Tablet : 1023~768, Phone : 480~320 */
 
 /* 토스뱅크에서 기본 웹은 min-width : 640 으로 두고 모바일은 설정 x  */
-@media all and (min-width : 768px) {
+@media all and (min-width : 820px) {
 	/* section1 */
 	.section1 {
 		display: flex;
+		flex-direction: row;
 		width : 100vw;
 		height: 100vh;
-		position: relative;
+		/* position: relative; */
 		/* background: url("../img/background_1.jpeg"); */
 		/* background-size: 100vw 100vh; */
 		/* z-index: 1; */
@@ -25,15 +26,16 @@ max-width를 사용하는 경우
 	}
 
 	.category {
-		width: 20vw;
+		width: 17vw;
 		height: 100vh;
 		
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-
-		border: 5px blue solid;
+		/* padding-left: 30px; */
+		/* text-align: left; */
+		/* border: 5px blue solid; */
 		background-color: rgb(32, 34, 36);
 	}
 	.categoryUpBox{
@@ -66,7 +68,8 @@ max-width를 사용하는 경우
 		height: 100%;
 		font-size: 45px;
 		text-align: left;
-		padding: 10px;
+		padding: 13px;
+		margin-bottom: 20px;
 		font-weight: bolder;
 		
 		 /* "to left" / "to right" - affects initial color */
@@ -77,8 +80,11 @@ max-width를 사용하는 경우
 	}
 
 	.category .categoryBottomBox{
-		border: red 2px solid;
-		/* height: 20vh; */
+		/* border: red 2px solid; */
+		height: 20vh;
+		/* justify-content: center; */
+		/* align-items: center; */
+		text-align: left;
 		/* margin-top: 600px; */
 		/* padding-top: 500px; */
 		/* border: 5px red solid; */
@@ -87,45 +93,98 @@ max-width를 사용하는 경우
 	.category .categoryBottomBox p {
 		color: white;
 		/* font-weight: bolder; */
-		/* font-size: 2rem; */
+		margin-bottom: 8px;
+		/* font-size: 20px; */
+	}
+	.categoryBottomBoxUpTag {
+		font-size: 20px;
+	}
+	.categoryBottomBoxBottomTag {	
+		font-size: 20px;
+		font-weight: lighter;
+	}
+	.mainForm {
+		position: relative; 
+
+		width: 83vw;
+		display: flex;
+		flex-direction: row;
+		/* border: 10px red solid; */
+		/* background-image: url("../img/mainBackground.jpg"); */
+		/* z-index: 5; */
+		background-color: black;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		/* opacity: 0.5; */
+	}
+	.mainForm::before{
+		content: "";
+		background-image: url('../img/mainBackground.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		/* background-size: cover; */
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		opacity: 0.7;
 	}
 	
-	.left_box {
+	/* .left_box {
+		display: flex;
+		flex-direction: column; */
 		/* width: 35%; */
-		border: 5px green solid;
+		/* border: 5px green solid; */
 		/* height: 100%; */
-	}
+		/* align-items: center;
+		justify-content: center;
+		text-align: center; */
+		/* background-color: black; */
+	/* } */
 
-	.seojiwon_body2_test {
-		/* width: 70%; */
+	/* .seojiwon_body2_test { */
+		/* width: 90%; */
 		/* height: 70%; */
-		/* width: 450px; */
+		/* width: ; */
+		/* padding:40px;
+		max-width: 100%;
+		min-width: 20%;
+		height: auto; */
 		/* max-width: 200px; */
-		/* min-width: 100px; */
-		/* height: 150px; */
+		/* min-width: 50px; */
+		/* height: 10px; */
 		/* object-fit: cover; */
 		/* padding: 140px 0px 0px 120px; */
 		/* 시계방향, 상 우 하 좌  */
-	}
+	/* } */
 
 	.right_box {
-		border: 5px blue solid;
-
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* width: 45%; */
+		/* border: 5px blue solid; */
+		z-index: 1;
+		display: flex;
+		flex-direction: row;
+		/* justify-content: center; */
+		/* align-items: center; */
+		width: 83vw;
 		/* padding-left: 20px; */
 		/* height: 100%; */
 		/* justify-content: center; */
 	}
 
 	.right_box_h1_box{
-		border: 5px red solid;
+		/* border: 5px red solid; */
 
-		/* width: 40%;  */
+		width: 33vw; 
+		/* border: yellow 10px solid; */
 		/* height: 10%; */
 		/* margin-top: 5%; */
-		/* margin-bottom: 5%; */
+		padding-left: 120px;
+		padding-top: 80px;
+		/* padding-top: 100px; */
+		/* padding-bottom: 50px; */
 		/* margin-left: 5%; */
 		/* padding : 150px 50px 0px 0px;  */
 		/* margin : 170px 50px 20px 100px; */
@@ -134,12 +193,15 @@ max-width를 사용하는 경우
 	.right_box_h1_box h1{
 		/* color: white; */
 		font-weight: bolder;
+		font-size: 50px;
 		/* font-size: 2.5vw; */
 	}
 	.name_in_h1 {
 		font-size: 70px;
-		text-decoration: underline darksalmon solid 10px;
-		/* margin: 0; */
+		text-decoration: underline yellow solid 10px;
+	}
+	.commentInRightBox {
+		color: white;
 	}
 	.point_in_h1 {
 		color: yellow;
@@ -149,15 +211,23 @@ max-width를 사용하는 경우
 
 	.right_box_p_box {
 		display: flex;
+		width: 50vw;
 		flex-direction:column;
+		/* padding-left: 600px; */
+		padding-top: 80px;
+		/* padding-left: 550px; */
+		text-align: left;
+		justify-content:flex-start;
+		/* align-items: center; */
 		/* width: 70%; */
 		/* margin : 0px 0px 0px 100px; */
 		/* height: 40%; */
+		/* border: red solid 5px; */
 	}
 	.right_box_p_box p {
 		/* color: white; */
-		/* font-size: 23px; */
-		/* margin : 0px; */
+		font-size: 22px;
+		margin-bottom: 10px;
 		/* padding : 0px; */
 		/* font-style: normal; */
 		/* font-weight: normal; */

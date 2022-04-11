@@ -19,7 +19,7 @@ function Page4() {
 
                 <div className="big_box">
                     <div className="Fourth_page_First_box">
-                        <img src={seojiwon_body1}></img>
+                        {/* <img src={seojiwon_body1}></img> */}
                     </div>
 
                     <div className="Fourth_page_Second_box">
