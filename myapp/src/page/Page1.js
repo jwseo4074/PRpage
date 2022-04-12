@@ -3,6 +3,8 @@ import "../style/page1.css";
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
 import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
 import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
+import down_arrow_icon from "../img/down-arrow_icon.svg";
+import down_arrow_icon1 from "../img/down-arrow_icon1.svg";
 
 // import { useMediaQuery } from 'react-responsive'
 
@@ -43,7 +45,7 @@ function Page1() {
                                 입니다.
                             </h1>
                         </div>
-
+                        
                         <div className ="right_box_p_box">
                             <p className="commentInRightBox delay_2">
                                 프론트엔드 개발자를 희망하고 있습니다
@@ -57,7 +59,12 @@ function Page1() {
                                 팀원들과의 소통과 개발 초기 기획 단계의 중요성을 잘 알고있습니다
                                 <span className="point_in_p">.</span>
                             </p>
+                            <div className="right_box_down_icon">
+                                <img className="down_arrow_icon" src={down_arrow_icon1}></img>
+                            </div>
                         </div>
+
+                        
                     </div>
                 </div>
                 </section>
