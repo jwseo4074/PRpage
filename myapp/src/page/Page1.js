@@ -30,9 +30,9 @@ function Page1() {
         setScrollValueOfY(window.pageYOffset); 
         console.log("window 스크롤 값을 <ScrollValueOfY> state에 저장");
         console.log(
-            "\n Scroll Event - 5", 
-            "\n window.pageYOffset = ", window.pageYOffset,
-            "\n ScrollValueOfY = ", ScrollValueOfY);
+            ` \n Scroll Event - 5 
+              \n window.pageYOffset = ${window.pageYOffset}
+              \n ScrollValueOfY = ${ScrollValueOfY}`);
         
         if(ScrollValueOfY > 70) {
             // 100 이상이면 버튼이 보이게
@@ -67,7 +67,9 @@ function Page1() {
         }
     })
     useEffect(() => {
-        console.log("스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ", ScrollValueOfY); 
+        // console.log("스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ", ScrollValueOfY); 
+        console.log(`스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ${ScrollValueOfY}`); 
+
         // ScrollY가 변화할때마다 값을 콘솔에 출력
     }, [ScrollValueOfY])
 
