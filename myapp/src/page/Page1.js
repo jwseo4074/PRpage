@@ -12,6 +12,9 @@ import upArrow from "../img/upArrow.svg";
 
 function Page1() {
 
+    const HIDDEN_CLASSNAME = "hidden";
+
+
     const [ScrollValueOfY, setScrollValueOfY] = useState(0);  
     // 스크롤값을 저장하기 위한 state
     const [MoveToTopBtnStatus, setMoveToTopBtnStatus] = useState(false); // 버튼 상태
@@ -22,8 +25,6 @@ function Page1() {
         setScrollValueOfY(0);  // ScrollY 의 값을 초기화
         setMoveToTopBtnStatus(false); // BtnStatus의 값을 false로 바꿈 => 버튼 숨김
     }
-
-    
 
     const handleScrollValueOfY = () => {
         setScrollValueOfY(window.pageYOffset); 
@@ -126,7 +127,7 @@ function Page1() {
                 </div>
                 {/* <TopButton onClick={moveToTop}/> */}
             </section>
-            <button className={ MoveToTopBtnStatus ? "moveTopBtnBoxActive" : "moveTopBtnBoxNone" } onClick={moveToTop}>
+            <button className={ MoveToTopBtnStatus ? "moveTopBtnBoxActive" : HIDDEN_CLASSNAME } onClick={moveToTop}>
                 <img className="moveTopBtn" src={upArrow}></img>
             </button>
         </>
