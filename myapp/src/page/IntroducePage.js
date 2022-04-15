@@ -92,6 +92,11 @@ function IntroducePage() {
                             Notion
                             <span className="point_in_h1">.</span>
                         </a>
+
+                        <a href="https://www.youtube.com/channel/UCC7EXepoyKcFv_mvij1Y_XA">
+                            Youtube
+                            <span className="point_in_h1">.</span>
+                        </a>
                     </div>
                     <div className="categoryBottomBox">
                         <p className="categoryBottomBoxUpTag">zwon2056@gmail.com</p>

@@ -1,13 +1,13 @@
 import "./App.css";
 import IntroducePage from "./page/IntroducePage";
-import Page2 from "./page/Page2";
+import ContentPage from "./page/ContentPage";
 import Footer from "./page/Footer";
 
 function App() {
 	return (
 		<>
 			<IntroducePage></IntroducePage>
-			<Page2></Page2>
+			<ContentPage></ContentPage>
 			<Footer></Footer>
 		</>
 	);

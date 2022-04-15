@@ -9,26 +9,52 @@
 .section2_box {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 }
 .section2_left_category{
 	display: flex;
-	border: blue 5px solid;
+	border: blue 2px solid;
 	flex-direction: column;
 
-	width: 20vw;
+	position: sticky;
+    top: 0px;
+    width: 17vw;
+    height: 100vh;
+}
+.category_title{
+	border: white 2px solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.category_content{
+	border:rgb(0, 0, 0) 2px solid;
+	padding-left: 20px;
+}
+.category_project{
+	border: red 5px solid;
+	margin-bottom: 20px;
+}
+.category_work{
+	border: green 5px solid;
+	margin-bottom: 20px;
+}
+.category_share{
+	border: blue 5px solid;
+	margin-bottom: 20px;
+}
+.category_education{
+	border: green 5px solid;
+	margin-bottom: 20px;
+}
+.category_study{
+	border: gray 5px solid;
+	margin-bottom: 20px;
 }
 .section2_right_content {
 	display: flex;
 	border: red 5px solid;
 	flex-direction: column;
 	
-	width: 80vw;
-}
-.box {
-	display: flex;
-	flex-direction: column;
+	/* width: 80vw; */
 }
 .smallName {
 	font-size: 30px;
@@ -39,10 +65,14 @@
 	color:rgb(197, 180, 157);
 	padding-top : 20px;
 }
+.box {
+	display: flex;
+	flex-direction: row;
+}
 .project {
 	width: 500px;
-	height: 200px;
-	margin: 50px;
+	/* height: 200px; */
+	padding: 20px;
 	border-top: gray 2px solid;
 }
 .project a {
