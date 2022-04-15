@@ -3,11 +3,12 @@ import "../style/page2.css";
 function Page2() {
 	return (
 		<>
-            {/* Third Page */}
-            <div className="section section3">
-                <h1> Experience</h1>
-                <div className="section3_box">
-                    <div className="section3_project">
+            <div className="section section2">
+                <div className="section2_box">
+                    <div className="section2_left_category">
+
+                    </div>
+                    <div className="section2_right_content">
                         <div className="box">
                             <div className="project">
                                 <a href="https://qkrtmfqls.gabia.io/#/">

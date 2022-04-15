@@ -1,4 +1,4 @@
-import "../style/page1.css";
+import "../style/IntroducePage.css";
 import React, { useState, useEffect } from 'react';
 
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
@@ -10,7 +10,7 @@ import upArrow from "../img/upArrow.svg";
 
 // import { useMediaQuery } from 'react-responsive'
 
-function Page1() {
+function IntroducePage() {
 
     const HIDDEN_CLASSNAME = "hidden";
 
@@ -136,4 +136,4 @@ function Page1() {
     );
 }
 
-export default Page1;
+export default IntroducePage;

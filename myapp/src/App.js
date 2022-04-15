@@ -1,16 +1,14 @@
 import "./App.css";
-import Page1 from "./page/Page1";
+import IntroducePage from "./page/IntroducePage";
 import Page2 from "./page/Page2";
-import Page3 from "./page/Page3";
-import Page4 from "./page/Page4";
+import Footer from "./page/Footer";
 
 function App() {
 	return (
 		<>
-			<Page1></Page1>
+			<IntroducePage></IntroducePage>
 			<Page2></Page2>
-			<Page3></Page3>
-			<Page4></Page4>
+			<Footer></Footer>
 		</>
 	);
 }
