@@ -7,13 +7,12 @@ import seojiwon_body2_test from "../img/seojiwon_body2_test.jpeg";
 import down_arrow_icon from "../img/down-arrow_icon.svg";
 import down_arrow_icon1 from "../img/down-arrow_icon1.svg";
 import upArrow from "../img/upArrow.svg";
+import mainBackground from '../img/mainBackground.jpg';
 
 // import { useMediaQuery } from 'react-responsive'
 
 function IntroducePage() {
-
     const HIDDEN_CLASSNAME = "hidden";
-
 
     const [ScrollValueOfY, setScrollValueOfY] = useState(0);  
     // 스크롤값을 저장하기 위한 state
@@ -104,13 +103,15 @@ function IntroducePage() {
                     </div>
                 </aside>
                 <div className="mainForm">
+                    {/* <img className ="mainBackgroundImg" src={mainBackground}></img> */}
                     <div className="left_box">
                     </div>
                      <div className="right_box">
                         <div className ="right_box_h1_box">
                             <h1 className="commentInRightBox delay_1">
                                 <span className="name_in_h1">서지원</span>
-                                입니다.
+                                입니다
+                                <span className="point_in_p">.</span>
                             </h1>
                         </div>
                         <div className ="right_box_p_box">
