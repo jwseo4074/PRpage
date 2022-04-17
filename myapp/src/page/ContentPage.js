@@ -4,8 +4,6 @@ import Fade from 'react-reveal/Fade';
 
 
 function ContentPage() {
-
-
 	return (
 		<>
             <div className="section section2">

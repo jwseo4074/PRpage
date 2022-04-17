@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
 	background-color: gray;
+    overflow-y: hidden;
+    overflow: scroll;
 }
 .section4 h1 {
     margin-left: 150px;

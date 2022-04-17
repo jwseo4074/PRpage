@@ -4,6 +4,8 @@
 	flex-direction: row;
 	position: relative;
 	background-color: rgb(56, 56, 56);
+	overflow-y: hidden;
+    overflow: scroll;
 }
 
 .section2_box {
