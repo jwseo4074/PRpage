@@ -407,7 +407,7 @@ max-width를 사용하는 경우
 		/* background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center; */
-		height: 600px;
+		height: 700px;
 		/* border: white solid 5px; */
 	}
 
@@ -462,13 +462,15 @@ max-width를 사용하는 경우
 	.right_box::before {
 		content: "";
 		background-image: url('../img/mainBackground.jpg');
-		background-size: cover;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center; 
 		position: absolute;
 		top: 0px;
 		right: 0px;
 		bottom: 0px;
 		left: 0px;
-		opacity: 0.75;
+		opacity: 0.6;
 	}
 
 	.right_box_h1_box{
