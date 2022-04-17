@@ -12,7 +12,7 @@
 }
 .section2_left_category{
 	display: flex;
-	border: blue 2px solid;
+	/* border: blue 2px solid; */
 	flex-direction: column;
 
 	position: sticky;
@@ -22,55 +22,63 @@
 }
 .category_title{
 	border: white 2px solid;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .category_content{
-	border:rgb(0, 0, 0) 2px solid;
+	border:rgb(0, 0, 0) 3px solid;
 	padding-left: 20px;
 }
 .category_project{
-	border: red 5px solid;
-	margin-bottom: 20px;
+	border: red 1px solid;
+	padding-bottom: 20px;
 }
 .category_work{
-	border: green 5px solid;
-	margin-bottom: 20px;
+	border: green 1px solid;
+	padding-bottom: 20px;
 }
 .category_share{
-	border: blue 5px solid;
-	margin-bottom: 20px;
+	border: blue 1px solid;
+	padding-bottom: 20px;
 }
 .category_education{
-	border: green 5px solid;
-	margin-bottom: 20px;
+	border: green 1px solid;
+	padding-bottom: 20px;
 }
 .category_study{
-	border: gray 5px solid;
-	margin-bottom: 20px;
+	border: gray 1px solid;
+	padding-bottom: 20px;
 }
 .section2_right_content {
 	display: flex;
-	border: red 5px solid;
+	border: red 3px solid;
 	flex-direction: column;
 	
 	/* width: 80vw; */
 }
 .smallName {
-	font-size: 30px;
+	font-size: 20px;
 	color:rgb(56, 48, 31);
 }
 .explainProject{
-	font-size: 20px;
+	font-size: 15px;
 	color:rgb(197, 180, 157);
 	padding-top : 20px;
 }
-.box {
+.project {
 	display: flex;
 	flex-direction: row;
+	height: 500px;
+	border: red 5px solid;
+}
+.box_active{
+	display: flex;
+}
+.box_hidden {
+	display: none;
 }
 .project {
-	width: 500px;
+	/* width: 500px; */
 	/* height: 200px; */
 	padding: 20px;
 	border-top: gray 2px solid;
@@ -79,20 +87,20 @@
 	display: inline-block;
 	color: gray;
 	font: bolder;
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
-	margin: 20px;
+	/* margin: 20px; */
 }
 .number{
 	color: white;
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: bolder;
 }
 .explain {
-	font-size: 30px;
+	font-size: 20px;
 	color: rgb(175, 175, 175);
 	font-weight: lighter;
-	margin-top: 20px;
+	/* padding-top: 50px; */
 }
 
 .project:hover .numberCanHover{
@@ -101,4 +109,7 @@
 	/* font-size: 45px; */
 	font-weight: bolder;
 	/* transform: scale(1.1); */
+}
+.numberCanHover{
+	padding-bottom: 20px;
 }

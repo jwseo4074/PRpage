@@ -1,5 +1,7 @@
 import "../style/IntroducePage.css";
 import React, { useState, useEffect } from 'react';
+import Fade from 'react-reveal/Fade';
+
 
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
 import seojiwon_body2 from "../img/seojiwon_body2.jpeg";
@@ -20,18 +22,18 @@ function IntroducePage() {
 
     const moveToTop = () => {
         document.documentElement.scrollTop = 0;
-        console.log("moveToTopBtn Click");
+        // console.log("moveToTopBtn Click");
         setScrollValueOfY(0);  // ScrollY 의 값을 초기화
         setMoveToTopBtnStatus(false); // BtnStatus의 값을 false로 바꿈 => 버튼 숨김
     }
-
+    
     const handleScrollValueOfY = () => {
         setScrollValueOfY(window.pageYOffset); 
-        console.log("window 스크롤 값을 <ScrollValueOfY> state에 저장");
-        console.log(
-            ` \n Scroll Event - 5 
-              \n window.pageYOffset = ${window.pageYOffset}
-              \n ScrollValueOfY = ${ScrollValueOfY}`);
+        // console.log("window 스크롤 값을 <ScrollValueOfY> state에 저장");
+        // console.log(
+        //     ` \n Scroll Event - 5 
+        //       \n window.pageYOffset = ${window.pageYOffset}
+        //       \n ScrollValueOfY = ${ScrollValueOfY}`);
         
         if(ScrollValueOfY > 70) {
             // 100 이상이면 버튼이 보이게
@@ -45,15 +47,15 @@ function IntroducePage() {
     useEffect(() => {
         // 그냥 state 조건 없이 바로 실행? 
         const currentScrollState = () => {
-            console.log("\n Scroll Event - 3, \n state 조건 없이 웹 로드 되면 바로 이 함수 호출, ")
-            console.log("\n Scroll Event - 4, \n 현재 scroll 값을 저장하는 이벤트 리스너 함수 호출 ")
+            // console.log("\n Scroll Event - 3, \n state 조건 없이 웹 로드 되면 바로 이 함수 호출, ")
+            // console.log("\n Scroll Event - 4, \n 현재 scroll 값을 저장하는 이벤트 리스너 함수 호출 ")
 
             window.addEventListener('scroll', handleScrollValueOfY);
             
         }
         
-        console.log("\n Scroll Event - 1 , \n state 조건 없이 웹 로드 되면 바로 실행, ")
-        console.log("\n Scroll Event - 2 , \n addEventListener 함수를 실행 ")
+        // console.log("\n Scroll Event - 1 , \n state 조건 없이 웹 로드 되면 바로 실행, ")
+        // console.log("\n Scroll Event - 2 , \n addEventListener 함수를 실행 ")
         currentScrollState(); // addEventListener 함수를 실행
         // console.log("@@@@@@@@@@@@@");
 
@@ -67,10 +69,20 @@ function IntroducePage() {
     })
     useEffect(() => {
         // console.log("스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ", ScrollValueOfY); 
-        console.log(`스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ${ScrollValueOfY}`); 
+        // console.log(`스크롤되면 제일 처음, 스크롤 이벤트 발생 \n ScrollY is ${ScrollValueOfY}`); 
 
         // ScrollY가 변화할때마다 값을 콘솔에 출력
     }, [ScrollValueOfY])
+
+    // const items = document.querySelectorAll(".box");
+    // for (var i = 0; i < items.length; i++) {
+    //     var posFromTop = items[i].getBoundingClientRect().top;
+    //     if (ScrollValueOfY > posFromTop) {
+    //         console.log(`ScrollValueOfY = ${ScrollValueOfY}, posFromTop = ${posFromTop} \n `)
+    //         // items[i].classList.remove("box_hidden");
+    //         // items[i].classList.add("box_active");
+    //     }
+    // }
 
 	return (
 		<>
@@ -107,13 +119,17 @@ function IntroducePage() {
                     <div className="left_box">
                     </div>
                      <div className="right_box">
-                        <div className ="right_box_h1_box">
+                         <Fade cascade bottom>
+                         <div className ="right_box_h1_box">
                             <h1 className="commentInRightBox delay_1">
                                 <span className="name_in_h1">서지원</span>
                                 입니다
                                 <span className="point_in_p">.</span>
                             </h1>
-                        </div>
+                         </div>
+                         </Fade>
+                         <Fade cascade bottom>
+
                         <div className ="right_box_p_box">
                             <p className="commentInRightBox delay_2">
                                 프론트엔드 개발자를 희망하고 있습니다
@@ -131,6 +147,7 @@ function IntroducePage() {
                                 <img className="down_arrow_icon" src={down_arrow_icon1}></img>
                             </div>
                         </div>
+                        </Fade>
                     </div>
                 </div>
                 {/* <TopButton onClick={moveToTop}/> */}

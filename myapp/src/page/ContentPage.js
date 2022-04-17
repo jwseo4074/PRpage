@@ -1,6 +1,11 @@
 import "../style/ContentPage.css";
+import React, { useState, useEffect } from 'react';
+import Fade from 'react-reveal/Fade';
+
 
 function ContentPage() {
+
+
 	return (
 		<>
             <div className="section section2">
@@ -38,6 +43,45 @@ function ContentPage() {
                         </div>
                     </nav>
                     <div className="section2_right_content">
+                        <Fade cascade bottom className="box">
+                            <div className="project">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
+                                    <div className="number">
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </Fade>
+
+                        <Fade cascade bottom>
+                            <div className="project">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
+                                    <div className="number">
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </Fade>
+
+                        <Fade cascade bottom>
+                            <div className="project">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
+                                    <div className="number">
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </Fade>
+
                         <div className="box">
                             <div className="project">
                                 <a href="https://qkrtmfqls.gabia.io/#/">
@@ -49,165 +93,139 @@ function ContentPage() {
                                     </div>
                                 </a>
                             </div>
-
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">바닐라 JS 크롬 앱 만들기</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
                         </div>
-                        
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
+                        <div className="box">
+                            <div className="project">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
+                                    <div className="number">
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
+                        <div className="box">
+                            <div className="project">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
+                                    <div className="number">
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
+
                         <div className="box">
                             <div className="project">
-                                <a href="http://www.naver.com">
+                                <a href="https://qkrtmfqls.gabia.io/#/">
                                     <div className="number">
-                                        <p className="numberCanHover">졸업과제</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="project">
-                                <a href="http://www.naver.com">
-                                    <div className="number">
-                                        <p className="numberCanHover">프로젝트 4</p> 
-                                        <p className="explain"> 설명 간단하게 적어봅시다</p>
+                                        <p className="numberCanHover">Refri Bank</p>
+                                        <span className="explain"> 부산 연합 SW 동아리 </span>
+                                        <span className="smallName">PROJECT</span> 
+                                        <p className="explainProject"> 6 WEEKS PROJECT </p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </>
