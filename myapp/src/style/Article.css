@@ -1,0 +1,14 @@
+#project_header_box {
+    width: 70vw;
+    /* padding: 50px; */
+    /* border: black 5px solid; */
+}
+#article_title {
+    width: 85%;
+    font-size: 80px;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 10px solid rgb(104, 104, 104);
+    padding-bottom: 20px;
+}
+

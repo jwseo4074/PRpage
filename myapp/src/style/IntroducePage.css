@@ -402,7 +402,7 @@ body {
 		/* "to left" / "to right" - affects initial color */
 		background: linear-gradient(to left, transparent 50%, rgb(248, 205, 7) 50%) right;
 		background-size: 200%;
-		transition: .2s ease-out;
+		transition: .1s ease-out;
 
 	}
 

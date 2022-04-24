@@ -79,6 +79,7 @@ html {
 }
 html {
 	margin-right: -400px;
+	background-color: black;
 }
 * {
 	box-sizing: content-box;
