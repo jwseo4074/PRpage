@@ -1,0 +1,42 @@
+.category_title{
+	/* border: white 2px solid; */
+	padding-top: 10px;
+	padding-bottom: 20px;
+    color : black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.category_content{
+	/* border:rgb(0, 0, 0) 3px solid; */
+	padding-left: 10px;
+    color: rgb(73, 73, 73);
+    padding-bottom: 3px;
+    font-size: 13px;
+}
+.category_content::before {
+    /* content: "● º ▪️ ➖ "; */
+    content: "▪️ ";
+    /* content: "● "; */
+}
+.category_project{
+	/* border: red 1px solid; */
+	padding-bottom: 10px;
+    /* color : darkgray; */
+    /* content: ">"; */
+}
+.category_work{
+	/* border: green 1px solid; */
+	padding-bottom: 10px;
+}
+.category_share{
+	/* border: blue 1px solid; */
+	padding-bottom: 10px;
+}
+.category_education{
+	/* border: green 1px solid; */
+	padding-bottom: 10px;
+}
+.category_study{
+	/* border: gray 1px solid; */
+	padding-bottom: 10px;
+}

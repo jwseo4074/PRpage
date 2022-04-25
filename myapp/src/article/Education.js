@@ -6,32 +6,24 @@ import "../style/ContentPage.css";
 function Education() {
     return (
         <>
-            <h1 id="article_title"> Education </h1>
-            {/* <Fade cascade bottom className="box"> */}
-                <div className="project">
-                    <a href="https://qkrtmfqls.gabia.io/#/">
-                        <div className="number">
-                            <p className="numberCanHover">졸업과제</p>
-                            <span className="explain"> 부산대학교 </span>
-                            <span className="smallName"> 졸업과제 </span> 
-                            <p className="explainProject"> 졸업과제 </p>
-                        </div>
-                    </a>
+            <a name="moveToEducation"></a>
+            <div id ="project_header_box">
+                <h1 id="article_title"> Education </h1>
+            </div>
+            <div id = "project_big_box">
+                <div id ="up_box_in_project_big_box">
+                    <div className="project">
+                        <a href="https://github.com/JO2SEO/AOMD" target="_blank">
+                            <div className="number">
+                                <p className="numberCanHover">OOCI</p>
+                                <span className="explain"> 여름계절학기 </span>
+                                <span className="smallName">현장실습</span> 
+                                <p className="explainProject"> ~~~</p>  
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            {/* </Fade> */}
-
-            {/* <Fade cascade bottom className="box"> */}
-                <div className="project">
-                    <a href="https://qkrtmfqls.gabia.io/#/">
-                        <div className="number">
-                            <p className="numberCanHover">Refri Bank</p>
-                            <span className="explain"> 부산 연합 SW 동아리 </span>
-                            <span className="smallName">PROJECT</span> 
-                            <p className="explainProject"> 6 WEEKS PROJECT </p>
-                        </div>
-                    </a>
-                </div>
-            {/* </Fade> */}
+            </div>
         </>
     );
 }

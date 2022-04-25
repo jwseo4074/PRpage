@@ -5,7 +5,7 @@
 	position: relative;
 	background-color: rgb(255, 255, 255);
 	overflow-y: hidden;
-    overflow: scroll;
+    /* overflow: scroll; */
 	/* background-color: gray; */
 }
 .section2_box {
@@ -15,53 +15,33 @@
 .section2_left_category{
 	display: flex;
 	flex-direction: column;
-	position: sticky;
+	/* position: sticky; */
     top: 0px;
     width: 300px;
 	padding: 30px;
     /* height: 100vh; */
 }
-.category_title{
-	/* border: white 2px solid; */
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.category_content{
-	/* border:rgb(0, 0, 0) 3px solid; */
-	padding-left: 20px;
-}
-.category_project{
-	/* border: red 1px solid; */
-	padding-bottom: 20px;
-}
-.category_work{
-	/* border: green 1px solid; */
-	padding-bottom: 20px;
-}
-.category_share{
-	/* border: blue 1px solid; */
-	padding-bottom: 20px;
-}
-.category_education{
-	/* border: green 1px solid; */
-	padding-bottom: 20px;
-}
-.category_study{
-	/* border: gray 1px solid; */
-	padding-bottom: 20px;
-}
 .section2_right_content {
 	display: flex;
 	/* border: red 3px solid; */
 	flex-direction: column;
-	padding: 50px;
+	padding: 50px 0px 0px 50px;
 	/* width: 80vw; */
 }
 .project {
 	display: flex;
 	flex-direction: row;
 	width: 50%;
-	height: 150px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 50px;
+	/* padding: 30px; */
+}
+.project_work {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 120px;
 	padding-left: 50px;
 	padding-top: 50px;
 	/* padding: 30px; */
@@ -85,6 +65,7 @@
 	color: white;
 	font-size: 25px;
 	font-weight: bolder;
+	height: 150px;
 }
 .project:hover .numberCanHover{
 	color:rgb(104, 104, 104);
@@ -97,7 +78,7 @@
 .numberCanHover{
 	color: black;
 	/* padding-bottom: 20px; */
-	font-size: 45px;
+	font-size: 40px;
 }
 .explain_and_smallName {
 	display: none;
@@ -147,7 +128,7 @@
 
 #project_big_box {
 	/* width: 70vw; */
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 	display: flex;
 	flex-direction: column;
 }

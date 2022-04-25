@@ -51,7 +51,6 @@ function IntroducePage() {
             // console.log("\n Scroll Event - 4, \n 현재 scroll 값을 저장하는 이벤트 리스너 함수 호출 ")
 
             window.addEventListener('scroll', handleScrollValueOfY);
-            
         }
         
         // console.log("\n Scroll Event - 1 , \n state 조건 없이 웹 로드 되면 바로 실행, ")
