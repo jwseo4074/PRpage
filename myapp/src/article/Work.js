@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import "../style/Article.css";
 
 
@@ -8,7 +8,7 @@ function Work() {
         <>
             <h1 id="article_title"> Work </h1>
 
-            <Fade cascade bottom className="box">
+            {/* <Fade cascade bottom className="box"> */}
                 <div className="project">
                     <a href="https://qkrtmfqls.gabia.io/#/">
                         <div className="number">
@@ -19,7 +19,7 @@ function Work() {
                         </div>
                     </a>
                 </div>
-            </Fade>
+            {/* </Fade> */}
         </>
     );
 }

@@ -1,6 +1,6 @@
 import "../style/ContentPage.css";
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 import Navcategory from "../nav/NavCategory"
 

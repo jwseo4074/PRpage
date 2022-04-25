@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import "../style/ContentPage.css";
 
 
@@ -7,7 +7,7 @@ function Education() {
     return (
         <>
             <h1 id="article_title"> Education </h1>
-            <Fade cascade bottom className="box">
+            {/* <Fade cascade bottom className="box"> */}
                 <div className="project">
                     <a href="https://qkrtmfqls.gabia.io/#/">
                         <div className="number">
@@ -18,9 +18,9 @@ function Education() {
                         </div>
                     </a>
                 </div>
-            </Fade>
+            {/* </Fade> */}
 
-            <Fade cascade bottom className="box">
+            {/* <Fade cascade bottom className="box"> */}
                 <div className="project">
                     <a href="https://qkrtmfqls.gabia.io/#/">
                         <div className="number">
@@ -31,7 +31,7 @@ function Education() {
                         </div>
                     </a>
                 </div>
-            </Fade>
+            {/* </Fade> */}
         </>
     );
 }

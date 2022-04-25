@@ -1,6 +1,6 @@
 import "../style/IntroducePage.css";
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 
 import seojiwon_body1 from "../img/seojiwon_body1.jpeg";
@@ -119,7 +119,7 @@ function IntroducePage() {
                     <div className="left_box">
                     </div>
                      <div className="right_box">
-                         <Fade cascade bottom>
+                         {/* <Fade cascade bottom> */}
                          <div className ="right_box_h1_box">
                             <h1 className="commentInRightBox delay_1">
                                 <span className="name_in_h1">서지원</span>
@@ -127,8 +127,8 @@ function IntroducePage() {
                                 <span className="point_in_p">.</span>
                             </h1>
                          </div>
-                         </Fade>
-                         <Fade cascade bottom>
+                         {/* </Fade> */}
+                         {/* <Fade cascade bottom> */}
 
                         <div className ="right_box_p_box">
                             <p className="commentInRightBox delay_2">
@@ -147,7 +147,7 @@ function IntroducePage() {
                                 <img className="down_arrow_icon" src={down_arrow_icon1}></img>
                             </div>
                         </div>
-                        </Fade>
+                        {/* </Fade> */}
                     </div>
                 </div>
                 {/* <TopButton onClick={moveToTop}/> */}

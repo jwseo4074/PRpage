@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import "../style/Article.css";
 import "../style/ContentPage.css";
 
@@ -11,7 +11,7 @@ function Project() {
             </div>
             <div id = "project_big_box">
                 <div id ="up_box_in_project_big_box">
-                    <Fade cascade bottom className="box">
+                    {/* <Fade cascade bottom className="box"> */}
                         <div className="project">
                             <a href="https://github.com/JO2SEO/AOMD" target="_blank">
                                 <div className="number">
@@ -36,10 +36,10 @@ function Project() {
                                 </div>
                             </a>
                         </div>
-                    </Fade>
+                    {/* </Fade> */}
                 </div>
                 <div id="bottom_box_in_project_big_box">
-                    < Fade cascade bottom className="box">
+                    {/* < Fade cascade bottom className="box"> */}
                         <div className="project">
                             <a href="https://qkrtmfqls.gabia.io/#/" target="_blank">
                                 <div className="number">
@@ -64,7 +64,7 @@ function Project() {
                                 </div>
                             </a>
                         </div>
-                    </Fade>
+                    {/* </Fade> */}
                 </div>
                 
             </div>
