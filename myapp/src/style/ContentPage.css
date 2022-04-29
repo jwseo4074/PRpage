@@ -4,7 +4,7 @@
 	flex-direction: row;
 	position: relative;
 	background-color: rgb(255, 255, 255);
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
     /* overflow: scroll; */
 	/* background-color: gray; */
 }
@@ -13,13 +13,12 @@
 	flex-direction: row;
 }
 .section2_left_category{
-	display: flex;
-	flex-direction: column;
-	/* position: sticky; */
+	position: sticky;
+	/* position: -webkit-sticky; */
     top: 0px;
-    width: 300px;
+	/* left: 0px; */
 	padding: 30px;
-    /* height: 100vh; */
+    height: 100vh;
 }
 .section2_right_content {
 	display: flex;

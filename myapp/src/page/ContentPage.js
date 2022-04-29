@@ -15,9 +15,9 @@ function ContentPage() {
 		<>
             <div className="section section2">
                 <div className="section2_box">
-                    <nav className="section2_left_category">
+                    <div className="section2_left_category">
                         <Navcategory></Navcategory>
-                    </nav>
+                    </div>
 
                     <article className="section2_right_content">
                         <Project></Project>
