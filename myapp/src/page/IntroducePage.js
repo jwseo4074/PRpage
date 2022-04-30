@@ -35,7 +35,7 @@ function IntroducePage() {
         //       \n window.pageYOffset = ${window.pageYOffset}
         //       \n ScrollValueOfY = ${ScrollValueOfY}`);
         
-        if(ScrollValueOfY > 70) {
+        if(ScrollValueOfY > 50) {
             // 100 이상이면 버튼이 보이게
             setMoveToTopBtnStatus(true);
         } else {
@@ -85,32 +85,33 @@ function IntroducePage() {
 
 	return (
 		<>
+            <a name="moveToTop"></a>
             <section className="section section1">
                 <aside className="category"> 
                     <div className="categoryUpBox">
-                        <a href="https://github.com/jwseo4074/">
+                        <a href="https://github.com/jwseo4074/" target="_blank">
                             GitHub 
                             <span className="point_in_h1">.</span>
                         </a>
                     
-                        <a href="https://velog.io/@zwon">
+                        <a href="https://velog.io/@zwon" target="_blank">
                             Velog 
                             <span className="point_in_h1">.</span>
                         </a>
                     
-                        <a href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354">
+                        <a href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354" target="_blank">
                             Notion
                             <span className="point_in_h1">.</span>
                         </a>
 
-                        <a href="https://www.youtube.com/channel/UCC7EXepoyKcFv_mvij1Y_XA">
+                        <a href="https://www.youtube.com/channel/UCC7EXepoyKcFv_mvij1Y_XA" target="_blank">
                             Youtube
                             <span className="point_in_h1">.</span>
                         </a>
                     </div>
                     <div className="categoryBottomBox">
                         <p className="categoryBottomBoxUpTag">zwon2056@gmail.com</p>
-                        <p className="categoryBottomBoxBottomTag">Last Update : 2022/04/26 </p>
+                        <p className="categoryBottomBoxBottomTag">Last Update : 2022/04/30 </p>
                     </div>
                 </aside>
                 <div className="mainForm">
@@ -151,7 +152,7 @@ function IntroducePage() {
                 </div>
                 {/* <TopButton onClick={moveToTop}/> */}
             </section>
-            <button className={ MoveToTopBtnStatus ? "moveTopBtnBoxActive" : HIDDEN_CLASSNAME } onClick={moveToTop}>
+            <button className={ MoveToTopBtnStatus ? "moveTopBtnBoxActive" : HIDDEN_CLASSNAME } onClick={moveToTop} href="moveToTop">
                 <img className="moveTopBtn" src={upArrow}></img>
             </button>
         </>

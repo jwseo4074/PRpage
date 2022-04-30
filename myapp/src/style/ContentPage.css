@@ -80,48 +80,31 @@
 	font-size: 40px;
 }
 .explain_and_smallName {
-	display: none;
-}
-.explan {
-	display: none;
-}
-.smallName {
-	display: none;
-}
-.explainProject {
-	display: none;
-}
-.project:hover .explain_and_smallName {
 	display: flex;
 	flex-direction: row;
 	padding: 5px;
 	margin-top: 20px;
 	margin-left: 20px;
-	/* text-align: center; */
 }
-.project:hover .explain {
+.explain {
 	display: flex;
 	font-size: 27px;
 	color: rgb(0, 0, 0);
 	/* padding: 10px; */
 }
-.project:hover .smallName {
+.smallName {
 	display: flex;
 	font-size: 20px;
 	margin-left: 5px;
 	margin-top: 3px;
 	color:rgb(0, 0, 0);
 }
-.project:hover .explainProject {
+.explainProject {
 	display: flex;
 	font-size: 20px;
 	color:rgb(197, 180, 157);
 	padding: 5px;
 	margin-left: 20px;
-
-	/* margin-left: -4px; */
-	/* padding-top : 20px; */
-	/* transition: 2s; */
 }
 
 
@@ -138,4 +121,8 @@
 #bottom_box_in_project_big_box {
 	display : flex;
 	flex-direction: row;
+}
+
+.moveToTag {
+	padding-top: 30px;
 }

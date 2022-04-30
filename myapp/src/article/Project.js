@@ -6,7 +6,7 @@ import "../style/ContentPage.css";
 function Project() {
     return (
         <>  
-            <a name="moveToProject"></a>
+            <a class="moveToTag" name="moveToProject"></a>
             <div id ="project_header_box">
                 <h1 id="article_title"> Project </h1>
             </div>
