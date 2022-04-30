@@ -36,8 +36,6 @@ function Share() {
                                     <span className="explain"> 여름계절학기 </span>
                                     <span className="smallName"> 현장실습 </span>
                                 </div> 
-                                Notion
-Youtube
                                 <p className="explainProject"> 소속 계열사 미팅을 통한 현장 경험 축적</p>
                             </div>
                         </a>
