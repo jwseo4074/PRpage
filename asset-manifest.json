@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PRpage/static/css/main.1d04ff15.css",
+    "main.js": "/PRpage/static/js/main.7402356c.js",
+    "static/js/787.d3befce1.chunk.js": "/PRpage/static/js/787.d3befce1.chunk.js",
+    "static/media/mainBackground.jpg": "/PRpage/static/media/mainBackground.168a07abce17fa8503e1.jpg",
+    "static/media/seojiwon_body2.jpeg": "/PRpage/static/media/seojiwon_body2.37dadd936bec71e01ae4.jpeg",
+    "static/media/seojiwon_body2_test.jpeg": "/PRpage/static/media/seojiwon_body2_test.5754c6b88e6eff4cdf01.jpeg",
+    "static/media/seojiwon_body1.jpeg": "/PRpage/static/media/seojiwon_body1.d87e8aaea36627c06f54.jpeg",
+    "static/media/down-arrow_icon.svg": "/PRpage/static/media/down-arrow_icon.f8aacb9b9767db8ce3ffd2ebbce75738.svg",
+    "static/media/down-arrow_icon1.svg": "/PRpage/static/media/down-arrow_icon1.ca046481d68fe1a07a8e7d0ef6f59ffe.svg",
+    "static/media/upArrow.svg": "/PRpage/static/media/upArrow.be140c2dad7fa893032240570a6abc79.svg",
+    "index.html": "/PRpage/index.html",
+    "main.1d04ff15.css.map": "/PRpage/static/css/main.1d04ff15.css.map",
+    "main.7402356c.js.map": "/PRpage/static/js/main.7402356c.js.map",
+    "787.d3befce1.chunk.js.map": "/PRpage/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d04ff15.css",
+    "static/js/main.7402356c.js"
+  ]
+}
