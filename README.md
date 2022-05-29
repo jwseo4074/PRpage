@@ -1,2 +1,1 @@
-# PRpage
-나만의 PR page 만들기
+# make PR page using JS
