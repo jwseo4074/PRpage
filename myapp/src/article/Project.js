@@ -13,7 +13,7 @@ function Project() {
 			<div id="project_big_box">
 				<div id="up_box_in_project_big_box">
 					<div className="project">
-						<a href="https://github.com/JO2SEO/AOMD" target="_blank">
+						<a href="https://github.com/JO2SEO" target="_blank">
 							<div className="number">
 								<p className="numberCanHover">AOMD</p>
 								<div className="explain_and_smallName">
@@ -41,7 +41,7 @@ function Project() {
 				</div>
 				<div id="bottom_box_in_project_big_box">
 					<div className="project">
-						<a href="https://qkrtmfqls.gabia.io/#/" target="_blank">
+						<a href="https://jwseo4074.github.io/PRpage/" target="_blank">
 							<div className="number">
 								<p className="numberCanHover"> PR page </p>
 								<div className="explain_and_smallName">
@@ -53,7 +53,7 @@ function Project() {
 						</a>
 					</div>
 					<div className="project">
-						<a href="https://todolist-zwon.herokuapp.com" target="_blank">
+						<a href="https://jwseo4074.github.io/todoList-Vanila-JS/" target="_blank">
 							<div className="number">
 								<p className="numberCanHover">Todo List </p>
 								<div className="explain_and_smallName">
@@ -67,16 +67,16 @@ function Project() {
 				</div>
 				<div id="bottom_box_in_project_big_box">
 					<div className="project">
-						<a href="https://qkrtmfqls.gabia.io/#/" target="_blank">
+						<a href="https://jwseo4074.github.io/webSite-React-JS/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover"> movieWeb </p>
+								<p className="numberCanHover"> Interactive Web </p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Toy Project </span>
 									<span className="smallName"> React.js</span>
 								</div>
 								<p className="explainProject">
 									{' '}
-									공부해왔던 모든 것을 접목시킨 웹 사이트{' '}
+									공부해왔던 모든 기능을 접목시킨 웹 사이트{' '}
 								</p>
 							</div>
 						</a>
