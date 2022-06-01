@@ -98,7 +98,7 @@ function IntroducePage() {
 						</a>
 
 						<a
-							href="https://www.notion.so/00b328221c3449b8bc0f4c27ef903354"
+							href="https://complete-hosta-0ad.notion.site/zwon-s-Archive-7151c1ea4cac40f9854ad19826513af9"
 							target="_blank"
 						>
 							Notion
