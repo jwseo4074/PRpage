@@ -41,18 +41,17 @@ function Navcategory() {
 					<a className="category_title" href="#moveToEducation">
 						Education
 					</a>
-					<div className="category_content education1">부산대학교</div>
-					<div className="category_content education2">부캠? 우테코? </div>
+					<div className="category_content education1">대학교</div>
+					{/* <div className="category_content education2">부캠? 우테코? </div> */}
 				</div>
 				<div className="category_study catogory_one_box">
 					<a className="category_title" href="#moveToStudy">
 						Study
 					</a>
 					<div className="category_content study1">신입생 멘토링 스터디</div>
-					<div className="category_content study2">파이썬 리트코드 스터디</div>
-					<div className="category_content study3">발표 스터디</div>
-					<div className="category_content study4">모던 JS 딥 다이브 스터디</div>
-					<div className="category_content study5">React PR page 스터디</div>
+					<div className="category_content study2">파이썬 알고리즘 스터디</div>
+					<div className="category_content study3">Web Front 발표 스터디</div>
+					<div className="category_content study4">CS 발표 스터디</div>
 				</div>
 			</div>
 		</>

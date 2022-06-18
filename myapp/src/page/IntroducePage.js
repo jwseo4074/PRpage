@@ -115,7 +115,7 @@ function IntroducePage() {
 					</div>
 					<div className="categoryBottomBox">
 						<p className="categoryBottomBoxUpTag">zwon2056@gmail.com</p>
-						<p className="categoryBottomBoxBottomTag">Last Update : 2022/05/30 </p>
+						<p className="categoryBottomBoxBottomTag">Last Update : 2022/06/18 </p>
 					</div>
 				</aside>
 				<div className="mainForm">

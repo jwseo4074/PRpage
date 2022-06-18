@@ -59,7 +59,7 @@ function Share() {
 								</div>
 								<p className="explainProject">
 									{' '}
-									배우고 공부헸던 모든 것들을 기록하는 좋은 습관
+									배우고 공부했던 모든 것들을 기록하는 좋은 습관
 								</p>
 							</div>
 						</a>
@@ -78,7 +78,7 @@ function Share() {
 								</div>
 								<p className="explainProject">
 									{' '}
-									운동하면서 스트레스를 풀고 건강한 개발자가 되도록
+									운동하면서 스트레스를 풀고 건강한 개발자가 되기위한
 								</p>
 							</div>
 						</a>

@@ -69,7 +69,7 @@ function Project() {
 					<div className="project">
 						<a href="https://jwseo4074.github.io/webSite-React-JS/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover"> Interactive Web </p>
+								<p className="numberCanHover"> React Web </p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Toy Project </span>
 									<span className="smallName"> React.js</span>
