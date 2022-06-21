@@ -9,12 +9,12 @@ function Share() {
 			<div id="project_header_box">
 				<h1 id="article_title"> Share </h1>
 			</div>
-			<div>
-				<div>
+			<div id="project_big_box">
+				<div id="up_box_in_project_big_box">
 					<div className="project">
 						<a href="https://github.com/jwseo4074" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">Github</p>
+								<p className="numberCanHover fromLeft">Github</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> jwseo4074</span>
 									{/* <span className="smallName"> zwon2056 </span> */}
@@ -23,14 +23,11 @@ function Share() {
 							</div>
 						</a>
 					</div>
-				</div>
-			</div>
-			<div>
-				<div>
+
 					<div className="project">
 						<a href="https://velog.io/@zwon" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">Velog</p>
+								<p className="numberCanHover fromLeft">Velog</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Algorithm, Tech Blog</span>
 									{/* <span className="smallName"> 서지원 </span> */}
@@ -43,16 +40,14 @@ function Share() {
 						</a>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div>
+				<div id="up_box_in_project_big_box">
 					<div className="project">
 						<a
 							href="https://complete-hosta-0ad.notion.site/zwon-s-Archive-7151c1ea4cac40f9854ad19826513af9"
 							target="_blank"
 						>
 							<div className="number">
-								<p className="numberCanHover">Notion</p>
+								<p className="numberCanHover fromLeft">Notion</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> zwon’s Archive </span>
 									{/* <span className="smallName">  </span> */}
@@ -64,14 +59,11 @@ function Share() {
 							</div>
 						</a>
 					</div>
-				</div>
-			</div>
-			<div id="project_big_box">
-				<div id="up_box_in_project_big_box">
+
 					<div className="project">
 						<a href="https://github.com/JO2SEO/AOMD" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">Youtube</p>
+								<p className="numberCanHover fromLeft">Youtube</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> 유일한 취미 </span>
 									{/* <span className="smallName"> 현장실습 </span> */}

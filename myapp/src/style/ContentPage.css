@@ -34,11 +34,19 @@
 .project {
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	width: 40%;
 	height: 120px;
 	padding-left: 50px;
 	padding-top: 50px;
 	/* padding: 30px; */
+}
+.education_project {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 50px;
 }
 .study_box {
 	display: flex;
@@ -85,19 +93,34 @@
 	font-weight: bolder;
 	/* height: 150px; */
 }
-.project:hover .numberCanHover {
-	color: rgb(104, 104, 104);
-	cursor: pointer;
-	/* font-size: 45px; */
-	font-weight: bolder;
-	/* margin-left: 50px; */
-	/* font-size: 50px; */
-}
+
 .numberCanHover {
 	color: black;
+	width: fit-content;
+	/* height: 100px; */
+	/* border */
 	/* padding-bottom: 20px; */
-	font-size: 40px;
+	/* font-size: 40px; */
+	/* padding: 20px; */
+	font-size: 2.7vw;
+	/* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, rgb(104, 103, 103) 15%); */
 }
+
+.numberCanHover:after {
+	display: block;
+	content: '';
+	border-bottom: rgb(104, 103, 103) solid 5px;
+	/* line-height: 1.2; */
+	cursor: pointer;
+	transform: scaleX(0);
+	transition: transform 200ms ease-in-out;
+	/* animation-fill-mode: forwards; */
+}
+.project:hover .numberCanHover:after {
+	transform: scaleX(1);
+	transform-origin: 0% 50%;
+}
+
 .explain_and_smallName {
 	display: flex;
 	flex-direction: row;
@@ -107,20 +130,23 @@
 }
 .explain {
 	display: flex;
-	font-size: 27px;
+	/* font-size: 27px; */
+	font-size: 2vw;
 	color: rgb(0, 0, 0);
 	/* padding: 10px; */
 }
 .smallName {
 	display: flex;
-	font-size: 20px;
+	/* font-size: 20px; */
+	font-size: 1.7vw;
 	margin-left: 5px;
 	margin-top: 3px;
 	color: rgb(0, 0, 0);
 }
 .explainProject {
 	display: flex;
-	font-size: 20px;
+	/* font-size: 20px; */
+	font-size: 1.3vw;
 	color: rgb(197, 180, 157);
 	padding: 5px;
 	margin-left: 20px;

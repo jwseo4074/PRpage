@@ -115,7 +115,7 @@ function IntroducePage() {
 					</div>
 					<div className="categoryBottomBox">
 						<p className="categoryBottomBoxUpTag">zwon2056@gmail.com</p>
-						<p className="categoryBottomBoxBottomTag">Last Update : 2022/06/18 </p>
+						<p className="categoryBottomBoxBottomTag">Last Update : 2022/06/21 </p>
 					</div>
 				</aside>
 				<div className="mainForm">
@@ -135,7 +135,7 @@ function IntroducePage() {
 
 						<div className="right_box_p_box">
 							<p className="commentInRightBox delay_2">
-								프론트엔드 개발자를 희망하고 있습니다
+								웹 프론트엔드 개발자를 희망하고 있습니다
 								<span className="point_in_p">.</span>
 							</p>
 							<p className="commentInRightBox delay_3">

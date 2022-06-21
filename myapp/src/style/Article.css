@@ -4,8 +4,10 @@
 	/* border: black 5px solid; */
 }
 #article_title {
-	width: 85%;
-	font-size: 60px;
+	width: 90%;
+	/* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, rgb(104, 103, 103) 15%); */
+	/* font-size: 60px; */
+	font-size: 4vw;
 	color: black;
 	font-weight: bolder;
 	border-bottom: 10px solid rgb(104, 104, 104);

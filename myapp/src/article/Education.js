@@ -11,9 +11,9 @@ function Education() {
 			</div>
 			<div id="project_big_box">
 				<div id="up_box_in_project_big_box">
-					<div className="project">
+					<div className="education_project">
 						<div className="number">
-							<p className="numberCanHover">대학교</p>
+							<p className="numberCanHover fromLeft">대학교</p>
 							<div className="explain_and_smallName">
 								<span className="explain"> 부산대학교 학사 졸업 </span>
 								<span className="smallName"> 2017.3 - 2023.2 </span>

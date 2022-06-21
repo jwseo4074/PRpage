@@ -14,7 +14,7 @@ function Work() {
 					<div className="project">
 						<a href="https://github.com/JO2SEO/AOMD" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">OOCI</p>
+								<p className="numberCanHover fromLeft">OOCI</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> 여름계절학기 </span>
 									<span className="smallName"> 현장실습 </span>

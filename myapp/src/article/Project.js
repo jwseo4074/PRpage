@@ -15,7 +15,7 @@ function Project() {
 					<div className="project">
 						<a href="https://github.com/JO2SEO" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">AOMD</p>
+								<p className="numberCanHover fromLeft">AOMD</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> 부산대학교 </span>
 									<span className="smallName"> 졸업과제 </span>
@@ -29,12 +29,12 @@ function Project() {
 					<div className="project">
 						<a href="https://qkrtmfqls.gabia.io/#/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">Refri Bank</p>
+								<p className="numberCanHover fromLeft">Refri Bank</p>
 								<div className="explain_and_smallName">
 									<span className="explain"> 부산 연합 SW 동아리 </span>
 									<span className="smallName">PROJECT</span>
 								</div>
-								<p className="explainProject">6 WEEKS PROJECT</p>
+								<p className="explainProject">6 Weeks Challenge Project</p>
 							</div>
 						</a>
 					</div>
@@ -43,7 +43,7 @@ function Project() {
 					<div className="project">
 						<a href="https://jwseo4074.github.io/PRpage/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover"> PR page </p>
+								<p className="numberCanHover fromLeft"> PR page </p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Toy Project </span>
 									<span className="smallName"> Publishing</span>
@@ -55,7 +55,7 @@ function Project() {
 					<div className="project">
 						<a href="https://jwseo4074.github.io/todoList-Vanila-JS/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover">Todo List </p>
+								<p className="numberCanHover fromLeft">Todo List </p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Toy Project </span>
 									<span className="smallName"> Vanila JS </span>
@@ -69,7 +69,7 @@ function Project() {
 					<div className="project">
 						<a href="https://jwseo4074.github.io/webSite-React-JS/" target="_blank">
 							<div className="number">
-								<p className="numberCanHover"> React Web </p>
+								<p className="numberCanHover fromLeft"> React Web </p>
 								<div className="explain_and_smallName">
 									<span className="explain"> Toy Project </span>
 									<span className="smallName"> React.js</span>
@@ -84,7 +84,7 @@ function Project() {
 					<div className="project">
 						<a href="https://todolist-zwon.herokuapp.com" target="_blank">
 							<div className="number">
-								<p className="numberCanHover"></p>
+								<p className="numberCanHover fromLeft"></p>
 								<div className="explain_and_smallName">
 									<span className="explain"> </span>
 									<span className="smallName"> </span>

@@ -9,6 +9,7 @@ import Work from '../article/Work';
 import Share from '../article/Share';
 import Education from '../article/Education';
 import Study from '../article/Study';
+import Read from '../article/Read';
 
 function ContentPage() {
 	return (
@@ -25,6 +26,7 @@ function ContentPage() {
 						<Share></Share>
 						<Education></Education>
 						<Study></Study>
+						<Read></Read>
 					</article>
 				</div>
 			</div>
