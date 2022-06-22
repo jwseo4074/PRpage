@@ -106,7 +106,7 @@ function IntroducePage() {
 						</a>
 
 						<a
-							href="https://www.youtube.com/channel/UCC7EXepoyKcFv_mvij1Y_XA"
+							href="https://www.youtube.com/channel/UCxPQgmW_buBOW_KncBaVkiA"
 							target="_blank"
 						>
 							Youtube
