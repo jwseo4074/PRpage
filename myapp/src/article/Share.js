@@ -61,7 +61,10 @@ function Share() {
 					</div>
 
 					<div className="project">
-						<a href="https://github.com/JO2SEO/AOMD" target="_blank">
+						<a
+							href="https://www.youtube.com/channel/UCxPQgmW_buBOW_KncBaVkiA"
+							target="_blank"
+						>
 							<div className="number">
 								<p className="numberCanHover fromLeft">Youtube</p>
 								<div className="explain_and_smallName">
