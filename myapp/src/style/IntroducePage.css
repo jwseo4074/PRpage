@@ -314,6 +314,7 @@ div{
 		/* margin: 20px; */
 		z-index: 100;
 		width: 30px;
+		cursor: pointer;
 	}
 	.hidden {
 		display: none;
