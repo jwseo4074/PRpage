@@ -1,18 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // import Fade from 'react-reveal/Fade';
 import '../style/Article.css';
 
 function Share() {
 	return (
 		<>
-			<a className="moveToTag" name="moveToShare"></a>
+			<a className="moveToTag" name="moveToShare" rel="noopener noreferrer"></a>
 			<div id="project_header_box">
 				<h1 id="article_title"> Share </h1>
 			</div>
 			<div id="project_big_box">
 				<div id="up_box_in_project_big_box">
 					<div className="project">
-						<a href="https://github.com/jwseo4074" target="_blank">
+						<a
+							href="https://github.com/jwseo4074"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<div className="number">
 								<p className="numberCanHover fromLeft">Github</p>
 								<div className="explain_and_smallName">
@@ -29,13 +33,10 @@ function Share() {
 							<div className="number">
 								<p className="numberCanHover fromLeft">Velog</p>
 								<div className="explain_and_smallName">
-									<span className="explain"> Algorithm, Tech Blog</span>
+									<span className="explain"> https://velog.io/@zwon </span>
 									{/* <span className="smallName"> 서지원 </span> */}
 								</div>
-								<p className="explainProject">
-									{' '}
-									배우고 공부한 모든 것들을 기록하는 좋은 습관
-								</p>
+								<p className="explainProject">Algorithm, Tech Blog</p>
 							</div>
 						</a>
 					</div>

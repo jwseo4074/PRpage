@@ -306,7 +306,6 @@ div{
 		bottom: 30px;
 		/* background-color: rgb(239, 239, 239); */
 		background-color: rgb(180, 180, 180);
-
 		border-radius: 10px;
 		border: none;
 		/* padding-top: 5px; */
@@ -316,11 +315,18 @@ div{
 		width: 30px;
 		cursor: pointer;
 	}
+	.moveTopBtnBoxActive:hover {
+		/* background-color: rgb(239, 239, 239); */
+		background-color: rgb(117, 117, 117);
+		cursor: pointer;
+		transform: scale(1.1);
+	}
 	.hidden {
 		display: none;
 	}
 	.moveTopBtn {
 		margin: 2px;
+		/* color: aliceblue; */
 		/* position: fixed;
 		bottom: 2em;
 		right: 2em;
@@ -630,5 +636,11 @@ div{
 		
 		position: relative;
 		animation: fadeInDown 2s infinite; */
+	}
+	.moveTopBtnBoxActive:hover {
+		/* background-color: rgb(239, 239, 239); */
+		background-color: rgb(248, 205, 7);
+		cursor: pointer;
+		transform: scale(1.1);
 	}
 }

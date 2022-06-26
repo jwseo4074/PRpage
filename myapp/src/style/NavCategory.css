@@ -1,52 +1,68 @@
-.section2_left_category_contentBox {
-	width: 300px;
-	display: flex;
-	flex-direction: column;
-}
-.catogory_one_box {
-	margin-bottom: 20px;
-}
-.category_title {
-	/* border: white 2px solid; */
-	/* margin-top: 30px; */
-	/* padding-bottom: 20px; */
-	/* margin-bottom: 20px; */
-	color: black;
-	font-size: 20px;
-	font-weight: bolder;
-}
-.category_content {
-	/* border:rgb(0, 0, 0) 3px solid; */
-	padding-left: 10px;
-	color: rgb(73, 73, 73);
-	padding-bottom: 3px;
-	font-size: 13px;
-}
-.category_content::before {
-	/* content: "● º ▪️ ➖ "; */
-	content: '▪️ ';
-	/* content: "● "; */
+@media all and (min-width: 900px) {
+	.section2_left_category_contentBox {
+		/* width: 300px; */
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		/* justify-content: space-around; */
+
+		/* box-sizing: border-box; */
+	}
+	.catogory_one_box {
+		box-sizing: border-box;
+		width: fit-content;
+
+		/* height: 10vh; */
+		margin-bottom: 15px;
+	}
+	.category_title {
+		/* border: white 2px solid; */
+		/* margin-top: 30px; */
+		/* padding-bottom: 20px; */
+		/* margin-bottom: 20px; */
+		color: black;
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	.category_content {
+		/* border:rgb(0, 0, 0) 3px solid; */
+		padding-left: 10px;
+		color: rgb(73, 73, 73);
+		padding-bottom: 3px;
+		font-size: 13px;
+	}
+	.category_content::before {
+		/* content: "● º ▪️ ➖ "; */
+		content: '▪️ ';
+		/* content: "● "; */
+	}
+
+	.category_project div {
+		margin: 6px 0px 0px 20px;
+	}
+
+	.category_work div {
+		margin: 6px 0px 0px 20px;
+	}
+
+	.category_share div {
+		margin: 6px 0px 0px 20px;
+	}
+
+	.category_education div {
+		margin: 6px 0px 0px 20px;
+	}
+
+	.category_study div {
+		margin: 6px 0px 0px 20px;
+	}
+	.category_read div {
+		margin: 6px 0px 0px 20px;
+	}
 }
 
-.category_project div {
-	margin: 10px 0px 0px 15px;
-}
-
-.category_work div {
-	margin: 10px 0px 0px 15px;
-}
-
-.category_share div {
-	margin: 10px 0px 0px 15px;
-}
-
-.category_education div {
-	margin: 10px 0px 0px 15px;
-}
-
-.category_study div {
-	margin: 10px 0px 0px 15px;
-}
-.category_read div {
-	margin: 10px 0px 0px 15px;
+@media all and (max-width: 900px) {
+	.section2_left_category {
+		display: none;
+	}
 }

@@ -26,7 +26,7 @@ function Navcategory() {
 					<a className="category_title" href="#moveToWork">
 						Work
 					</a>
-					<div className="category_content work1">OOCI 오오씨아이 현장실습</div>
+					<div className="category_content work1">OOCI 현장실습</div>
 				</div>
 				<div className="catogory_one_box category_share">
 					<a className="category_title" href="#moveToShare">
@@ -48,18 +48,18 @@ function Navcategory() {
 					<a className="category_title" href="#moveToStudy">
 						Study
 					</a>
-					<div className="category_content study1">신입생 멘토링 스터디</div>
-					<div className="category_content study2">파이썬 알고리즘 스터디</div>
-					<div className="category_content study3">Web Front 발표 스터디</div>
-					<div className="category_content study4">CS 발표 스터디</div>
+					<div className="category_content study1">신입생 멘토링 </div>
+					<div className="category_content study2">파이썬 알고리즘 </div>
+					<div className="category_content study3">Web Front </div>
+					<div className="category_content study4">CS 발표</div>
 				</div>
 				<div className="category_read catogory_one_box">
 					<a className="category_title" href="#moveToRead">
 						Read
 					</a>
-					<div className="category_content read1">모던 자바스크립트 Deep Dive</div>
-					<div className="category_content read2">Do it 리액트 프로그래밍 정석</div>
-					<div className="category_content read3">프론트엔드 웹 디자인 입문</div>
+					<div className="category_content read1">JS Deep Dive</div>
+					<div className="category_content read2">Do it 리액트 </div>
+					<div className="category_content read3">웹 디자인 입문</div>
 				</div>
 			</div>
 		</>
